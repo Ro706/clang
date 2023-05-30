@@ -20,3 +20,7 @@ void main(){
   }
 ```
 As this `main()` function is of void type it can not return any value.
+# Tokens
+Tokens are the smallest elements of a program, which are meaningful to the compiler.<br>
+The C compiler breaks a program into the smallest possible units and proceeds to the various stages of the compilation,<br>
+which is called a token. C supports six types of tokens: Identifiers, Keywords, Constants, Strings, Operators and Special Symbols<br>
