@@ -15,8 +15,9 @@ This is a main function of c programming whatever written inside `main()` functi
 # short c program for printing hello world
 ```shell
 #include<stdio.h>
-void main(){
+int main(){
   printf("hello world");
+  return 0;
   }
 ```
 As this `main()` function is of void type it can not return any value.
