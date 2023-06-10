@@ -28,7 +28,7 @@ which is called a token. C supports six types of tokens: Identifiers, Keywords, 
 > token are 6 type :- <br> 
 1) keyword <br>
 2) Indentifiers <br>
-3)constant <br>
-4)special symbols <br>
-5)string <br>
-6)operators <br>
+3) constant <br>
+4) special symbols <br>
+5) string <br>
+6) operators <br>
