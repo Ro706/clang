@@ -25,10 +25,10 @@ As this `main()` function is of void type it can not return any value.
 Tokens are the smallest elements of a program, which are meaningful to the compiler.<br>
 The C compiler breaks a program into the smallest possible units and proceeds to the various stages of the compilation,
 which is called a token. C supports six types of tokens: Identifiers, Keywords, Constants, Strings, Operators and Special Symbols<br>
->> token are 6 type <br>
-1) keyword
-2) Indentifiers
-3)constant
-4)special symbols
-5)string
-6)operators
+>> token are 6 type <br> >>
+1) keyword <br>
+2) Indentifiers <br>
+3)constant <br>
+4)special symbols <br>
+5)string <br>
+6)operators <br>
