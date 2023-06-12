@@ -26,9 +26,9 @@ Tokens are the smallest elements of a program, which are meaningful to the compi
 The C compiler breaks a program into the smallest possible units and proceeds to the various stages of the compilation,
 which is called a token. C supports six types of tokens: Identifiers, Keywords, Constants, Strings, Operators and Special Symbols<br>
 > token are 6 type :- <br> 
-1) keyword <br>
-2) Indentifiers <br>
-3) constant <br>
+1) keywords <br>
+2) Identifiers <br>
+3) constants <br>
 4) special symbols <br>
 5) string <br>
 6) operators <br>
