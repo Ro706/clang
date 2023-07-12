@@ -117,7 +117,7 @@ a)decimal point representation (%f)<br>
 b)scientific / exponational representation(%e or %E)<br>
 <br>
 =>`Single charactor constant :-`<br>
-The constant a single charactor enclosed within a pair of single quote marks .Every single charactor constant has associated integer vlaue , known as ascii values .<br?
+The constant a single charactor enclosed within a pair of single quote marks .Every single charactor constant has associated integer vlaue , known as ascii values .<br>
 Ex=>'a','b'
 <br><br>
 =>`multiple charactor constant :-`<br>
