@@ -71,3 +71,56 @@ printf("a=%d,b=%d,sum=%d",a,b,a+b);
 }
 
 ```
+`Keyword`<br>
+1)keyword are the word whose meaning is already known to the compiler<br>
+2)Also Known as reserved words<br>
+3)All the keywords must be written in lower case letter<br>
+4)There are total 32 keyword in c programming language <br>
+they are :-<br>
+`Datatype`<br>
+void , char ,short ,int ,signed, unsigned, Float, double, long.<br>
+`Flow control`<br>
+if , else, do ,while ,for ,switch ,case,default,break,continue,goto.<br>
+`storage`<br>
+auto ,static,extern,register.<br>
+`user defined<`br>
+struct ,union,enum,typedef.<br>
+`Other  `<br>
+const,volatile,return ,sizeof.<br>
+<br>
+`note : c is a case sensitive language`<br>
+constant :<br>
+constant in c language which does not change during the execution of program constant doess not occupy any memory location in c programming language .<br>
+`Type of constant:-   `<br>
+1)numeric constant <br>
+ a)regular constant => [3,-2,0,8... etc]<br>
+ b)Floating constant => [3.14,82.081,2.11...etc]<br>
+2)charactor constant 
+ a)single charactor constant => 'a' <br>
+ b)multiple charactor constant => "Ro706" <br>
+=> `Regular constant   :- `<br>
+Regular constant or Integer constant refer to sequence of series there three type of Integer constant .<br>
+1)Decimal constant (%d)[0 to 9] <br>
+2)Octal constant (%o) [0 to 7]<br>
+3)Hexdecimal constant (%x) [0 to 9 then A,B,C,D,E,F]<br>
+<br>
+`How negetive number (integer) is stored at 2Ts complement of the number `<br>
+1Ts complement : - changeing zero into  one and one into zero in binary number system <br>
+1 0 0 0 1 0 1 0 0<br>
+0 1 1 1 0 1 0 1 1<br>
+2Ts complement : - changeing zero into  one and one into zero in binary number system then add one .
+<br>
+<br>
+=>`Floating point constant  :-`<br>
+It represent the number with decimal point .there are two representation for floating point constant <br>
+a)decimal point representation (%f)<br>
+b)scientific / exponational representation(%e or %E)<br>
+<br>
+=>`Single charactor constant :-`<br>
+The constant a single charactor enclosed within a pair of single quote marks .Every single charactor constant has associated integer vlaue , known as ascii values .<br?
+Ex=>'a','b'
+<br><br>
+=>`multiple charactor constant :-`<br>
+multiple charactor constant or string constant is sequance of charactor enclose in double quote marks .<br>
+The charactor can be letters,digits,volid spaces .special symbol etc...<br>
+ex => "hello","Ro706"
