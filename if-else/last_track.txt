@@ -1,1 +1,1 @@
-17.Write a C program to check whether a year is a leap year or not (Input - No of Days)
+19.Write a C program to check whether a character is in the alphabet or not.
