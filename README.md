@@ -7,7 +7,7 @@ This repo is made to store the c file <br>
 
 `compiler`:<br>
 it is a program which processes statement written in a  praticular programming language and convert them in machine understandable language,which a machine can process.<br>
-`high level language` :<br>
+`middle-level-language` :<br>
 High-level languages are programming languages that are designed to allow humans to write computer programs and interact with a computer system without having to have specific knowledge of the processor or hardware that the program will run on.<br><br>
 `Advantage of high level language `<br>
 1) Readability increase <br>
