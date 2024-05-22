@@ -2,7 +2,7 @@
 This repo is made to store the c file <br>
 `Fact about c programming language`<br>
 1) It was developed at Bell Laboratories in 1972 by Dennis Ritchie.<br>
-2) c programming language is high level programming language <br>
+2) c programming language is middle-level programming language <br>
 1) c programming language has 32 keywords <br>
 
 `compiler`:<br>
