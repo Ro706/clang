@@ -1,217 +1,343 @@
 # Clang - C Programming Learning Repository
 
-This repository is designed to help you learn and practice C programming from basics to advanced concepts. Each topic is organized in its own directory with example programs and explanations.
+This repository is designed to help you learn and practice **C programming**, from basic concepts to advanced topics. Each topic is organized into its own directory with example programs and explanations.
 
 ## 📚 Repository Structure
-```
+
+```text
 clang/
 ├── array/           # Array operations and examples
-├── basic/           # Basic C programs (hello world, arithmetic operations)
+├── basic/           # Basic C programs (Hello World, arithmetic operations)
 ├── function/        # Function definitions and usage
 ├── if-else/         # Conditional statements
 ├── LICENSE          # License file
 ├── loop/            # Loops (for, while, do-while)
 ├── pointer/         # Pointer concepts and examples
-├── README.md        # This file
+├── README.md        # Repository documentation
 ├── struct/          # Structure definitions and usage
 └── union/           # Union definitions and usage
 ```
+
+---
+
 ## 🚀 Quick Start
 
 ### Basic Programs
-Navigate to the `basic/` directory to find fundamental C programs:
-- `hello-world.c` - Your first C program
-- `div-of-two-number.c` - Division operations
-- `mult-of-two-number.c` - Multiplication operations
-- `sub-of-two-number.c` - Subtraction operations
-- `sum-of-two-number.c` - Addition operations
-- `input-statement.c` - User input handling
-- `input-str.c` - String input
-- `student-marks.c` - Practical application
 
-## 📖 C Programming Concepts
+Navigate to the `basic/` directory to explore fundamental C programs:
 
-### Introduction to C
-C programming language is a powerful, general-purpose programming language developed at Bell Laboratories in 1972 by Dennis Ritchie. It's known for its efficiency, portability, and close-to-hardware capabilities.
+* `hello-world.c` — Your first C program
+* `div-of-two-number.c` — Division operations
+* `mult-of-two-number.c` — Multiplication operations
+* `sub-of-two-number.c` — Subtraction operations
+* `sum-of-two-number.c` — Addition operations
+* `input-statement.c` — User input handling
+* `input-str.c` — String input
+* `student-marks.c` — Practical application example
+
+---
+
+## 📖 Introduction to C
+
+C is a powerful, general-purpose programming language developed by **Dennis Ritchie** at Bell Laboratories in **1972**. It is widely known for its efficiency, portability, and low-level memory access capabilities.
 
 ### Key Characteristics
-- **Middle-level programming language**: Combines features of both low-level and high-level languages
-- **Procedural programming**: Follows step-by-step execution model
-- **Case-sensitive language**: 'A' and 'a' are different
-- **32 keywords**: Reserved words with predefined meanings
 
-### Compilation Process
-A compiler is a program that converts human-readable C code into machine-executable code.
+* Middle-level programming language
+* Procedural programming language
+* Case-sensitive language
+* Fast and efficient execution
+* Portable across platforms
+* Rich set of operators and libraries
+
+---
+
+## ⚙️ Compilation Process
+
+A compiler converts human-readable C source code into machine-executable code.
+
+### Compile a Program
+
+```bash
+gcc filename.c -o program_name
+```
+
+### Run the Program
+
+```bash
+./program_name
+```
+
+### Remove Executable
+
+```bash
+rm program_name
+```
+
+---
 
 ## 🏗️ Basic Structure of a C Program
 
 ```c
-#include <stdio.h>  // Header file for input/output operations
+#include <stdio.h>
 
 int main() {
-    // Your code goes here
     printf("Hello, World!");
     return 0;
-}Components:
+}
 ```
 
-Header Files: #include  - for input/output functions
-Main Function: int main() - entry point of every C program
-Statements: Instructions enclosed in {}
-Return Statement: return 0; - indicates successful execution
+### Components
 
-### 🔑 C Programming Elements
-Tokens
-Tokens are the smallest meaningful units of a C program. C supports six types of tokens:
+| Component        | Description                                     |
+| ---------------- | ----------------------------------------------- |
+| Header Files     | `#include` statements provide library functions |
+| Main Function    | Entry point of every C program                  |
+| Statements       | Instructions executed by the program            |
+| Return Statement | Indicates successful execution                  |
 
-Keywords: Reserved words (32 total)
-Identifiers: Variable names, function names
-Constants: Fixed values
-Strings: Character sequences in double quotes
-Operators: Arithmetic, relational, logical operators
-Special Symbols: Punctuation marks like ;, {, }
+---
 
-Keywords Classification
-Data Types:
+## 🔑 C Programming Elements
 
-- void, char, short, int, signed, unsigned, float, double, long
+### Tokens
 
-- Flow Control:
+Tokens are the smallest meaningful units in a C program.
 
-- if, else, do, while, for, switch, case, default, break, continue, goto
+C supports six types of tokens:
 
-- Storage Classes:
+1. Keywords
+2. Identifiers
+3. Constants
+4. Strings
+5. Operators
+6. Special Symbols
 
-- auto, static, extern, register
+### Keywords Classification
 
-- User-Defined Types:
+#### Data Types
 
-- struct, union, enum, typedef
+```c
+void, char, short, int, signed, unsigned,
+float, double, long
+```
 
-Other:
+#### Flow Control
 
-- const, volatile, return, sizeof
+```c
+if, else, do, while, for, switch,
+case, default, break, continue, goto
+```
 
-### 📊 Data Types and Constants
-Constants
-Constants are values that don't change during program execution.
-Numeric Constants:
+#### Storage Classes
 
-### Integer Constants:
+```c
+auto, static, extern, register
+```
 
-- `Decimal`: 10, -2, 0, 8 (base 10)
-- `Octal`: 12, 777 (base 8, digits 0-7)
-- `Hexadecimal`: 1A, FF (base 16, digits 0-9, A-F)
+#### User-Defined Types
 
+```c
+struct, union, enum, typedef
+```
 
-### Floating Point Constants:
+#### Other Keywords
 
-- `Decimal`: 3.14, 82.081
-- `Scientific`: 1.23e-4, 4.56E+3
+```c
+const, volatile, return, sizeof
+```
 
+---
 
+## 📊 Data Types and Constants
 
-### Character Constants:
+### Integer Constants
 
-Single Character: 'a', 'b', '7'
-String: "hello", "Ro706"
+| Type        | Examples     |
+| ----------- | ------------ |
+| Decimal     | 10, -2, 0, 8 |
+| Octal       | 012, 0777    |
+| Hexadecimal | 0x1A, 0xFF   |
 
-Variable Declaration
-int age = 25;        // Integer
-float height = 5.6;  // Floating point
-char grade = 'A';    // Character🧮 Operators
-#### Arithmetic Operators
+### Floating Point Constants
 
-+ : Addition
-- : Subtraction
-* : Multiplication
-/ : Division
-% : Modulo (remainder)
+```c
+3.14
+82.081
+1.23e-4
+4.56E+3
+```
 
-#### Relational Operators
+### Character Constants
 
-== : Equal to
-!= : Not equal to
-> : Greater than
-< : Less than
->= : Greater than or equal to
-<= : Less than or equal to
+```c
+'a'
+'b'
+'7'
+```
 
-#### Logical Operators
+### String Constants
 
-&& : Logical AND
-|| : Logical OR
-! : Logical NOT
+```c
+"hello"
+"Ro706"
+```
 
-### 🎯 Control Flow
-Conditional Statements
+### Variable Declaration Examples
 
+```c
+int age = 25;
+float height = 5.6;
+char grade = 'A';
+```
+
+---
+
+## 🧮 Operators
+
+### Arithmetic Operators
+
+| Operator | Description    |
+| -------- | -------------- |
+| +        | Addition       |
+| -        | Subtraction    |
+| *        | Multiplication |
+| /        | Division       |
+| %        | Modulus        |
+
+### Relational Operators
+
+| Operator | Description              |
+| -------- | ------------------------ |
+| ==       | Equal to                 |
+| !=       | Not equal to             |
+| >        | Greater than             |
+| <        | Less than                |
+| >=       | Greater than or equal to |
+| <=       | Less than or equal to    |
+
+### Logical Operators
+
+| Operator | Description |
+| -------- | ----------- |
+| &&       | Logical AND |
+| ||       | Logical OR  |
+| !        | Logical NOT |
+
+---
+
+## 🎯 Control Flow
+
+### Conditional Statements
+
+```c
 if (condition) {
-    // Code to execute if true
-} else if (another_condition) {
-    // Code to execute if second condition is true
-} else {
-    // Code to execute if all conditions are false
-}Loops
+    // Code
+}
+else if (another_condition) {
+    // Code
+}
+else {
+    // Code
+}
+```
 
-- `For Loop`: When number of iterations is known
-- `While Loop`: When condition needs to be checked
-- `Do-While Loop`: Similar to while but executes at least once
+### Loops
 
-### 🔗 Pointers
+* **For Loop** – Used when the number of iterations is known.
+* **While Loop** – Used when a condition must be checked before execution.
+* **Do-While Loop** – Executes at least once before checking the condition.
+
+---
+
+## 🔗 Pointers
+
 Pointers store memory addresses of variables.
+
 ```c
 int x = 10;
-int *ptr = &x;  // ptr stores address of x
+int *ptr = &x;
 
-// Accessing value through pointer
-printf("%d", *ptr);🏗️ Data Structures
-Structures
-Structures group related data of different types.
+printf("%d", *ptr);
+```
+
+---
+
+## 🏗️ Data Structures
+
+### Structures
+
+Structures allow grouping related data of different types.
+
+```c
 struct Student {
     int roll;
     char name[50];
     float marks;
-};Unions
+};
 ```
-Unions allow storing different data types in the same memory location.
-### 📁 How to Use This Repository
 
-Start with Basic: Begin with programs in the basic/ directory
-Progress Step by Step: Follow the directory structure
-Compile and Run: Use gcc filename.c -o output to compile
-Experiment: Modify programs to understand concepts better
-Practice: Try writing your own programs for each concept
+### Unions
 
-### 🛠️ Compilation and Execution
-Compile a C Program
-- `gcc filename.c -o program_name` Run the Program
-- `./program_nameClean Up`
-- `rm program_name` 📚Learning Path
-<br><br>
-- `Basic Programs` → Understanding syntax and structure
-- `Variables and Data Types` → Storing and manipulating data
-- `Operators` → Performing operations
-- `Control Flow` → Making decisions and repetition
-- `Functions` → Modular programming
-- `Arrays` → Working with collections
-- `Strings` → Text manipulation
-- `Pointers` → Memory management
-- `Structures and Unions` → Complex data types
-- `File Handling` → Working with files
+Unions allow different data types to share the same memory location.
 
-### 🤝 Contributing
-Feel free to:
+```c
+union Data {
+    int i;
+    float f;
+    char str[20];
+};
+```
 
-Add new programs
-Improve existing examples
-Share your learning journey
-Report issues or suggest improvements
+---
 
-### 📄 License
-Check the MIT LICENSE file for licensing information.
+## 📁 How to Use This Repository
 
-### Happy Coding! 🎓
-Remember: Programming is a skill that improves with practice. Start simple, experiment often, and don't be afraid to make mistakes. Each error is a learning opportunity!
+1. Start with the `basic/` directory.
+2. Progress through the folders step by step.
+3. Compile and run each program.
+4. Modify the code to understand concepts better.
+5. Practice by writing your own programs.
 
- -- by Ro706
+---
+
+## 📚 Learning Path
+
+* Basic Programs
+* Variables and Data Types
+* Operators
+* Control Flow
+* Functions
+* Arrays
+* Strings
+* Pointers
+* Structures and Unions
+* File Handling
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+You can:
+
+* Add new programs
+* Improve existing examples
+* Fix bugs or typos
+* Share your learning journey
+* Suggest new topics
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+
+---
+
+## 🎓 Happy Coding!
+
+Programming is a skill that improves with practice. Start simple, experiment often, and don't be afraid to make mistakes—every error is a learning opportunity.
+
+**— Ro706**
