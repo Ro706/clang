@@ -3,6 +3,7 @@
 This repository is designed to help you learn and practice C programming from basics to advanced concepts. Each topic is organized in its own directory with example programs and explanations.
 
 ## 📚 Repository Structure
+```
 clang/
 ├── array/           # Array operations and examples
 ├── basic/           # Basic C programs (hello world, arithmetic operations)
@@ -14,7 +15,7 @@ clang/
 ├── README.md        # This file
 ├── struct/          # Structure definitions and usage
 └── union/           # Union definitions and usage
-
+```
 ## 🚀 Quick Start
 
 ### Basic Programs
