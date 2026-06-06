@@ -60,7 +60,7 @@ Main Function: int main() - entry point of every C program
 Statements: Instructions enclosed in {}
 Return Statement: return 0; - indicates successful execution
 
-🔑 C Programming Elements
+### 🔑 C Programming Elements
 Tokens
 Tokens are the smallest meaningful units of a C program. C supports six types of tokens:
 
@@ -92,26 +92,26 @@ Other:
 
 - const, volatile, return, sizeof
 
-📊 Data Types and Constants
+### 📊 Data Types and Constants
 Constants
 Constants are values that don't change during program execution.
 Numeric Constants:
 
-Integer Constants:
+### Integer Constants:
 
-Decimal: 10, -2, 0, 8 (base 10)
-Octal: 12, 777 (base 8, digits 0-7)
-Hexadecimal: 1A, FF (base 16, digits 0-9, A-F)
-
-
-Floating Point Constants:
-
-Decimal: 3.14, 82.081
-Scientific: 1.23e-4, 4.56E+3
+- `Decimal`: 10, -2, 0, 8 (base 10)
+- `Octal`: 12, 777 (base 8, digits 0-7)
+- `Hexadecimal`: 1A, FF (base 16, digits 0-9, A-F)
 
 
+### Floating Point Constants:
 
-Character Constants:
+- `Decimal`: 3.14, 82.081
+- `Scientific`: 1.23e-4, 4.56E+3
+
+
+
+### Character Constants:
 
 Single Character: 'a', 'b', '7'
 String: "hello", "Ro706"
@@ -120,7 +120,7 @@ Variable Declaration
 int age = 25;        // Integer
 float height = 5.6;  // Floating point
 char grade = 'A';    // Character🧮 Operators
-Arithmetic Operators
+#### Arithmetic Operators
 
 + : Addition
 - : Subtraction
@@ -128,7 +128,7 @@ Arithmetic Operators
 / : Division
 % : Modulo (remainder)
 
-Relational Operators
+#### Relational Operators
 
 == : Equal to
 != : Not equal to
@@ -137,13 +137,13 @@ Relational Operators
 >= : Greater than or equal to
 <= : Less than or equal to
 
-Logical Operators
+#### Logical Operators
 
 && : Logical AND
 || : Logical OR
 ! : Logical NOT
 
-🎯 Control Flow
+### 🎯 Control Flow
 Conditional Statements
 
 if (condition) {
@@ -154,11 +154,11 @@ if (condition) {
     // Code to execute if all conditions are false
 }Loops
 
-For Loop: When number of iterations is known
-While Loop: When condition needs to be checked
-Do-While Loop: Similar to while but executes at least once
+- `For Loop`: When number of iterations is known
+- `While Loop`: When condition needs to be checked
+- `Do-While Loop`: Similar to while but executes at least once
 
-🔗 Pointers
+### 🔗 Pointers
 Pointers store memory addresses of variables.
 ```c
 int x = 10;
@@ -175,7 +175,7 @@ struct Student {
 };Unions
 ```
 Unions allow storing different data types in the same memory location.
-📁 How to Use This Repository
+### 📁 How to Use This Repository
 
 Start with Basic: Begin with programs in the basic/ directory
 Progress Step by Step: Follow the directory structure
@@ -183,24 +183,24 @@ Compile and Run: Use gcc filename.c -o output to compile
 Experiment: Modify programs to understand concepts better
 Practice: Try writing your own programs for each concept
 
-🛠️ Compilation and Execution
+### 🛠️ Compilation and Execution
 Compile a C Program
-`gcc filename.c -o program_name` Run the Program
-`./program_nameClean Up`
-`rm program_name` 📚Learning Path
+- `gcc filename.c -o program_name` Run the Program
+- `./program_nameClean Up`
+- `rm program_name` 📚Learning Path
+<br><br>
+- `Basic Programs` → Understanding syntax and structure
+- `Variables and Data Types` → Storing and manipulating data
+- `Operators` → Performing operations
+- `Control Flow` → Making decisions and repetition
+- `Functions` → Modular programming
+- `Arrays` → Working with collections
+- `Strings` → Text manipulation
+- `Pointers` → Memory management
+- `Structures and Unions` → Complex data types
+- `File Handling` → Working with files
 
-Basic Programs → Understanding syntax and structure
-Variables and Data Types → Storing and manipulating data
-Operators → Performing operations
-Control Flow → Making decisions and repetition
-Functions → Modular programming
-Arrays → Working with collections
-Strings → Text manipulation
-Pointers → Memory management
-Structures and Unions → Complex data types
-File Handling → Working with files
-
-🤝 Contributing
+### 🤝 Contributing
 Feel free to:
 
 Add new programs
@@ -208,10 +208,10 @@ Improve existing examples
 Share your learning journey
 Report issues or suggest improvements
 
-📄 License
+### 📄 License
 Check the MIT LICENSE file for licensing information.
 
-Happy Coding! 🎓
+### Happy Coding! 🎓
 Remember: Programming is a skill that improves with practice. Start simple, experiment often, and don't be afraid to make mistakes. Each error is a learning opportunity!
 
  -- by Ro706
